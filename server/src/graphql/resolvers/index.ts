@@ -1,5 +1,5 @@
 import merge from 'lodash.merge'
 
-import { listingResolvers } from './listing'
+import { listingResolvers } from './Listing'
 
 export const resolvers = merge(listingResolvers)
