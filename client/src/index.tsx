@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client'
+import 'antd/dist/reset.css'
 
 import reportWebVitals from './reportWebVitals'
 import { Listings } from './sections'
+import './styles/index.css'
 
 const client = new ApolloClient({
   uri: '/api',
